@@ -1,0 +1,173 @@
+/* Header */
+
+header {
+    text-align: center; 
+    background: url('http://cdn.pixabay.com/photo/2019/10/27/18/48/dumbo-4582501_960_720.jpg');
+    background-size: cover;
+    background-color: rgba(0,0,0,.7);
+    margin: 50px 0 0 0;
+    max-width: 100%;
+    max-height: auto;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+    margin: 25px 0px 50px 0px;
+    background: rgba(171,201,209,0.7);
+}
+ul {
+    font-size: 30px;    
+    padding: 10px 0px 10px 0px;
+    background: rgba(171,201,209,0.7);
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.name, .pages {
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.icon {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+
+/* BODY */
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    padding: 0 30px 0 30px;
+    text-align: justify;
+}
+@media (max-width: 1000px) {
+    h2{
+        font-size: 42px;
+    }
+    p{
+        font-size: 23px;
+    }
+}
+    @media (max-width: 700px){
+        h2{
+            font-size: 37px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+@media (max-height: 1000px) {
+    h2{
+        margin: 20px 0 0 0;
+    }
+}
+
+.sectiontitle {    
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+html, body, .container {
+    height: 50%; 
+    min-height: 50%;
+    padding: 0 0 0 0;
+    margin: -30px 0 -20px 0;
+}
+.first {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin:;
+    padding-bottom: 25%;
+    background-color: rgba(199, 160, 127, 1);
+    position: relative;
+}
+.second {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 25%;
+    background-image: url("images/img02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(199, 160, 127, 1);
+    position: relative;
+}
+.third {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 25%;
+    background-image: url("images/img03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(149, 169, 56, 1);
+    position: relative;
+}
+.fourth {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 25%;
+    background-color: rgba(149, 169, 56, 1);
+    position: relative;
+}
+
+.image1 {
+    float: right;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Footer */
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background: #575954;
+}
+footer a {
+    padding: 10px auto;
+    font-size: 20px;
+}
+footer a:hover {
+    color: #fff;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #292A24;
+    color: white;
+}
+.fa-instagram {
+    background: #292A24;
+    color: white;
+}
